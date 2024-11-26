@@ -97,7 +97,7 @@ Captions are generated from images using a trained model and converted into audi
 
 4. Configure the Browser Extension
 
-  - Replace the URL in the ```popup.js``` file with the ngrok public URL.
+   - Replace the URL in the ```popup.js``` file with the ngrok public URL.
 
 4. Run the Test HTML Page
 
