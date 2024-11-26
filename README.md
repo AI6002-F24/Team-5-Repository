@@ -40,6 +40,10 @@ Captions are generated from images using a trained model and converted into audi
      - TensorFlow
      - EfficientNetB0 CNN
      - Transformer Architecture
+  
+ - **Dataset:**
+ - 
+     - Flick30K Dataset from [Kaggle](https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset)
  
  - **Backend:**
 
@@ -77,14 +81,15 @@ Captions are generated from images using a trained model and converted into audi
 
 1. Train the Model
 
-   - Open train.ipynb and execute all cells to:
+   - Open ```train.ipynb``` and execute all cells to:
      
      - Train the image captioning model.
      - Save the trained model and vocabulary for inference.
 
 2. Start the Backend Server
    
-   - Open test_w_browser_extension.ipynb and:
+   - Open ```test_w_browser_extension.ipynb``` and:
+     
      - Define all custom functions used in the model.
      - Load the saved model and vocabulary.
      - Set up the FastAPI server with a publicly accessible ngrok tunnel.
@@ -92,7 +97,7 @@ Captions are generated from images using a trained model and converted into audi
 
 4. Configure the Browser Extension
 
-  - Replace the URL in the popup.js file with the ngrok public URL.
+  - Replace the URL in the ```popup.js``` file with the ngrok public URL.
 
 4. Run the Test HTML Page
 
@@ -111,9 +116,9 @@ Captions are generated from images using a trained model and converted into audi
 
 ## Notes
 
- - **IBM Watson Configuration:** Update the API key and service URL in the test_w_browser_extension.ipynb file.
+ - **IBM Watson Configuration:** Update the API key and service URL in the ```test_w_browser_extension.ipynb``` file.
  - **Ngrok Setup:** Ensure ngrok is installed and authenticated with your token.
- - **Browser Extension:** Add the extension in developer mode in your browser and include the modified popup.js.
+ - **Browser Extension:** Add the extension in developer mode in your browser and include the modified ```popup.js```.
 
 ## Future Enhancements
 
