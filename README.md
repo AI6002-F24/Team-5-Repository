@@ -42,7 +42,7 @@ Captions are generated from images using a trained model and converted into audi
      - Transformer Architecture
   
  - **Dataset:**
- - 
+   
      - Flick30K Dataset from [Kaggle](https://www.kaggle.com/datasets/hsankesara/flickr-image-dataset)
  
  - **Backend:**
