@@ -103,7 +103,7 @@ Captions are generated from images using a trained model and converted into audi
 
    - Start a Python HTTP server in the directory containing test.html: ```python -m http.server 8000```
      
-   - Open test.html in your browser.
+   - Open `test.html` in your browser.
 
 5. Use the Browser Extension
 
